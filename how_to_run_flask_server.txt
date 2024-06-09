@@ -1,0 +1,10 @@
+#activate env
+.\venv\Scripts\activate
+
+#set
+set FLASK_APP=server.py
+set FLASK_DEBUG=1
+
+#run
+flask run
+
